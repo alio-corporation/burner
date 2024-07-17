@@ -6,36 +6,36 @@ start:
     mov edx,0
     lp:
         inc eax
-        inc eax
         cmp eax,2147483647
+        jne lp
     lp2:
         inc ebx
-        inc ebx
         cmp ebx,2147483647
+        jne lp2
     lp3:
         inc ecx
-        inc ecx
-        cmp ebx,2147483647
+        cmp ecx,2147483647
+        jne lp3
     lp4:
         inc edx
-        inc edx
-        cmp ebx,2147483647
+        cmp edx,2147483647
+        jne lp4
      lp5:
         inc esp
-        inc esp
-        cmp eax,2147483647
+        cmp esp,2147483647
+        jne lp5
      lp6:
         inc ebp
-        inc ebp
-        cmp eax,2147483647
+        cmp ebp,2147483647
+        jne lp6
      lp7:
         inc esi
-        inc esi
-        cmp eax,2147483647
+        cmp esi,2147483647
+        jne lp7
      lp8:
         inc edi
-        inc edi
-        cmp eax,2147483647
+        cmp edi,2147483647
+        jne lp8
     jmp start
 
         
